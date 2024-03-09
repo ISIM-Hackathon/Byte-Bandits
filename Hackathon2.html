@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Login/Signup</title>
+<title>Signup</title>
 <meta character="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width-device-width, initial-scale=1.0">
@@ -28,7 +28,7 @@ body {
 }
 .wrapper {
 	width:420px;
-	height:70%;
+	height:80%;
 	background:transparent;
 	border:2px solid rgba(20, 20, 20, 0.87);
 	color: #black;
@@ -70,33 +70,15 @@ color:#black;
 	font-size: 20px;
 	color:black;
 }
-.wrapper .remember-forgot {
-	display:flex;
-	justify-content: space-between;
-	font-size: 14.5px;
-	margin:-15px 0 15px;
-	border-radius:10px;
-	padding:30px 40px;
-}
-.remember-forgot label input{
-	accent-color:#fff;
-	margin-right:3px;
-}
-.remember-forgot a{
-	color:#fff;
-	text-decoration:none;
-}	
-.remember-forgot a:hover{
-	text-decoration:underline;
-}
 .wrapper h4{
 	font-size:25px;
 	text-align:center;
 	color:black;
 }
+
 .wrapper .input-box h4{
-	width:70%;
-	height:45px;
+	width:100%;
+	height:50px;
 	background:#fff;
 	border:none;
 	outile:none;
@@ -126,25 +108,26 @@ color:#black;
 <body>
 <div class="wrapper">
 	<form action="" method="post">
-	<h1>Login</h1>
+	<h1>Registration</h1>
 	<div class="input-box">
 		<input type="text" placeholder="Username" required>
 		<i class='bx bxs-user'></i>
+	<div class="input-box">
+		 <input type="email" name="email" placeholder="Email" required>
+		<i class='bx bxs-envelope'></i>
 	</div>
 	<div class="input-box">
 		<input type="password" placeholder="Password" required>
 		<i class='bx bxs-lock'></i>
 	</div>
-	<div class="rember-forgot">
-		<label><input type="checkbox">&nbspRemember me</label>
-		&nbsp&nbsp&nbsp&nbsp&nbsp
-	<a href="#">Forgot password?</a>
-	</div>
-	<center>
 	<div class="input-box">
-	<a href="C:\Users\Lenovo\OneDrive\Desktop\Hackathon2.0\hackathong.html"><h4><br>Login</h4></a>
-	<div class ="register-link">
-	<p>Don't have an account?<a href="C:\Users\Lenovo\OneDrive\Desktop\Hackathon2.0\Hackathon2.html">Register</a></p>
+		<input type="password" placeholder="Confirm Password" required>
+		<i class='bx bxs-lock'></i>
+	</div>
+	<br>
+	<div class="input-box">
+	<a href="C:\Users\Lenovo\OneDrive\Desktop\Hackathon2.0\hackathong.html"><h4><br>Register</h4></a>
+	
 	</div>
 	</form>
 </div>					
